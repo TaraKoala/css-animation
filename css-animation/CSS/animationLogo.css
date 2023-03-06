@@ -1,0 +1,18 @@
+ @keyframes animatedSquare {
+    0%   {border-radius: 0%;}
+    25%  {border-radius: 100%;
+          transform: translate(200px);}
+    50%  {background-color: blue;
+          transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+  }
+  
+  img {
+    margin: 5%;
+    width: 100px;
+    height: 100px;
+    animation-name: animatedSquare;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    an   
+  }
